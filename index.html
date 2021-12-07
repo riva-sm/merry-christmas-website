@@ -1,77 +1,274 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== BOXICONS ===============-->
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <!--=============== SWIPER CSS ===============--> 
-        <link rel="stylesheet" href="">
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <title>Responsive Christmas Website - Bedimcode</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home" id="home">
-                
-            </section>
+    <title>Responsive Christmas Website - Bedimcode</title>
+</head>
 
-            <!--==================== GIVING ====================-->
-            <section class="giving section container">
-                
-            </section>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a class="nav__logo" href="#">
+                <img class="nav__logo-img" src="assets/img/logo.png" alt="santa claus">
+                Christmas
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link active-link" href="#home">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#celebrate">Celebrate</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#gift">Gifts</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#new">New</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+                <img class="nav__img" src="assets/img/nav-light.png" alt="">
+            </div>
+            <div class="nav__btns">
+                <!-- theme change button -->
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+                <!-- toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
 
-            <!--==================== CELEBRATE ====================-->
-            <section class="celebrate section container" id="celebrate">
-                
-            </section>
+        </nav>
+    </header>
 
-            <!--==================== GIFT ====================-->
-            <section class="gift section container" id="gift">
-                
-            </section>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img class="home__img" src="assets/img/home.png" alt="santa and Christmas trr">
 
-            <!--==================== NEW ====================-->
-            <section class="new section container" id="new">
-                
-            </section>
+                <div class="home__data">
+                    <h1 class="home__title">Merry Christmas and <br> Happy New Year!</h1>
+                    <p class="home__description">Christmas and a new year is about to begin,
+                        all good wishes and successes.</p>
+                    <a class="button" href="#">Get Started</a>
+                </div>
 
-            <!--==================== MESSAGE ====================-->
-            <section class="message section container">
-                
-            </section>
-        </main>
+            </div>
+        </section>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            
-        </footer>
+        <!--==================== GIVING ====================-->
+        <section class="giving section container">
+            <h2 class="section__title">Start Giving This <br> Christmas</h2>
+            <div class="giving__container grid">
+                <div class="giving__content">
+                    <img class="giving__img" src="assets/img/giving1.png" alt="Surprise gifts">
+                    <h3 class="giving__title">Surprise gifts</h3>
+                    <p class="giving__description">They are the best gifts there is.</p>
+                </div>
+                <div class="giving__content">
+                    <img class="giving__img" src="assets/img/giving2.png" alt="Ornaments">
+                    <h3 class="giving__title">Ornaments</h3>
+                    <p class="giving__description">Give a moment to decorate.</p>
+                </div>
+                <div class="giving__content">
+                    <img class="giving__img" src="assets/img/giving3.png" alt="Lots of love">
+                    <h3 class="giving__title">Lots of love</h3>
+                    <p class="giving__description">Give away feelings that last forever.</p>
+                </div>
+            </div>
+        </section>
 
-        <!--=============== SCROLL UP ===============-->
-        
+        <!--==================== CELEBRATE ====================-->
+        <section class="celebrate section container" id="celebrate">
+            <div class="celebrate__container grid">
+                <div class="celebrate__data">
+                    <h2 class="section__title celebrate__title">Celebrate With A <br> Lot Of Love</h2>
+                    <p class="celebrate__description">In this holidays, celebrate with much love and peace, offering
+                        many
+                        blessings to our loved ones, friends and neighbors, wishing them
+                        a good Christmas message.</p>
+                    <a class="button" href="#">Send Good Wishes</a>
+                </div>
+                <img class="celebrate__img" src="assets/img/celebrate.png" alt="fireplace with gifts">
+            </div>
+        </section>
 
-        <!--=============== SCROLL REVEAL ===============-->
-        <script src=""></script>
+        <!--==================== GIFT ====================-->
+        <section class="gift section container" id="gift">
+            <h2 class="section__title">Share A Gift</h2>
+            <div class="gift__container grid">
+                <article class="gift__card">
+                    <img class="gift__img" src="assets/img/gift1.png" alt="Gingerbread">
+                    <i class="bx bx-heart gift__icon"></i>
+                    <h3 class="gift__price">$15</h3>
+                    <span class="gift__title">Gingerbread</span>
+                </article>
+                <article class="gift__card">
+                    <img class="gift__img" src="assets/img/gift2.png" alt="Santa Claus Hat">
+                    <i class="bx bx-heart gift__icon"></i>
+                    <h3 class="gift__price">$22</h3>
+                    <span class="gift__title">Santa Claus Hat</span>
+                </article>
+                <article class="gift__card">
+                    <img class="gift__img" src="assets/img/gift3.png" alt="Christmas Tree">
+                    <i class="bx bx-heart gift__icon"></i>
+                    <h3 class="gift__price">$48</h3>
+                    <span class="gift__title">Christmas Tree</span>
+                </article>
+                <article class="gift__card">
+                    <img class="gift__img" src="assets/img/gift4.png" alt="Snowman">
+                    <i class="bx bx-heart gift__icon"></i>
+                    <h3 class="gift__price">$35</h3>
+                    <span class="gift__title">Snowman</span>
+                </article>
+                <article class="gift__card">
+                    <img class="gift__img" src="assets/img/gift5.png" alt="Candy Stick">
+                    <i class="bx bx-heart gift__icon"></i>
+                    <h3 class="gift__price">$12</h3>
+                    <span class="gift__title">Candy Stick</span>
+                </article>
+            </div>
+        </section>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <!--==================== NEW ====================-->
+        <section class="new section container" id="new">
+            <h2 class="section__title">New Gifts</h2>
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide">
+                            <div class="new__overlay"></div>
+                            <img class="new__img" src="assets/img/new1.png" alt="Reindeer">
+                            <h3 class="new__price">$95</h3>
+                            <span class="new__title">Reindeer</span>
+                            <button class="button new__button">
+                                <i class="bx bx-heart new__icon"></i>
+                            </button>
+                        </article>
+                        <article class="new__card swiper-slide">
+                            <div class="new__overlay"></div>
+                            <img class="new__img" src="assets/img/new2.png" alt="Snow Globe">
+                            <h3 class="new__price">$20</h3>
+                            <span class="new__title">Snow Globe</span>
+                            <button class="button new__button">
+                                <i class="bx bx-heart new__icon"></i>
+                            </button>
+                        </article>
+                        <article class="new__card swiper-slide">
+                            <div class="new__overlay"></div>
+                            <img class="new__img" src="assets/img/new3.png" alt="Sledge">
+                            <h3 class="new__price">$75</h3>
+                            <span class="new__title">Sledge</span>
+                            <button class="button new__button">
+                                <i class="bx bx-heart new__icon"></i>
+                            </button>
+                        </article>
+                        <article class="new__card swiper-slide">
+                            <div class="new__overlay"></div>
+                            <img class="new__img" src="assets/img/new4.png" alt="Christmas Wreath">
+                            <h3 class="new__price">$15</h3>
+                            <span class="new__title">Christmas Wreath</span>
+                            <button class="button new__button">
+                                <i class="bx bx-heart new__icon"></i>
+                            </button>
+                        </article>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        <!--==================== MESSAGE ====================-->
+        <section class="message section container">
+            <div class="message__container grid">
+                <form class="message__form" action="#">
+                    <h2 class="message__title">Send Good <br> Wishes!</h2>
+                    <input class="message__input" type="email" placeholder="Write your message...">
+                    <button class="button message__button">Send Message</button>
+                </form>
+                <img class="message__img" src="assets/img/message.png" alt="christmas envelope">
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a class="footer__logo" href="#">
+                    <img class="footer__logo-img" src="assets/img/logo.png" alt="santa claus">
+                    Christmas
+                </a>
+                <p class="footer__description">This Christmas give <br> a lot of love</p>
+            </div>
+            <div>
+                <h3 class="footer__title">Our Services</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a class="footer__link" href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Discounts</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Shipping mode</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">Support</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a class="footer__link" href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Support center</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__title">Available On</h3>
+                <div class="footer__aviables">
+                    <img class="footer__aviable-img" src="assets/img/aviable1.png" alt="get it on Google Play">
+                    <img class="footer__aviable-img" src="assets/img/aviable2.png" alt="get it on App Store">
+                </div>
+            </div>
+            <img class="footer__img1" src="assets/img/footer1.png" alt="christmas ball green">
+            <img class="footer__img2" src="assets/img/footer2.png" alt="christmas ball red">
+        </div>
+        <span class="footer__copy">&#169; Bedimcode. All rigths reserved</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a class="scrollup" id="scroll-up" href="#">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
